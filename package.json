@@ -1,0 +1,17 @@
+{
+  "name": "testing45641564",
+  "version": "1.0.0",
+  "description": "A sample package for Azure Artifacts feed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Build completed\"",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["sample", "azure", "artifacts"],
+  "author": "raujaiswal",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://pkgs.dev.azure.com/raujaiswal/_packaging/raunakfeed/npm/registry/"
+  }
+}
